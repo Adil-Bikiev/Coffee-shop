@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import { links } from '../../Data'
+import { FaStream } from "react-icons/fa";
+import './header.css'
 
 const Header = () => {
   return (
@@ -22,6 +24,9 @@ const Header = () => {
                         )
                     })}
                 </ul>
+            </div>
+            <div className="nav__toogle">
+                <FaStream/>
             </div>
         </nav>
     </header>
