@@ -93,7 +93,19 @@ p{
   line-height: 1.8;
 }
 
+a{
+  text-decoration: none;
+}
 
+input,
+textarea{
+  border: none;
+  outline: none;
+}
+
+img{
+  max-width: 100%;
+}
 /*=================================== 
 #RESUABLE CSS CLASSES
 ===================================*/
