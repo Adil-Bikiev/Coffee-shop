@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Dives+Akuru&family=Roboto&display=swap');
+
+/*=================================== 
+#CSS VARIABLES
+===================================*/
+
+:root {
+  --header-height: 5rem;
+
+  /*===============
+   * Colors
+  ===============*/
+
+  --first-color: hsl(27, 34%, 59%);
+  --first-color-light: hsl(27, 34%, 59%);;
+  --title-color: hsl(27, 34%, 59%);;
+  --text-color: hsl(27, 34%, 59%);;
+  --bg-color: hsl(27, 34%, 59%);;
+  --container-color: hsl(27, 34%, 59%);;
+  --hsla: hsl(27, 34%, 59%);;
+
+  /*===============
+   * Typography
+  ===============*/
+
+  --body-font: ;
+  --second-font: ;
+
+  --biggest-font-size: ;
+  --bigger-font-size: ;
+  --big-font-size: ;
+  --h1-font-size: ;
+  --h2-font-size: ;
+  --h3-font-size: ;
+  --largest-font-size: ;
+  --larger-font-size: ;
+  --large-font-size: ;
+  --normal-font-size: ;
+
+  --weight-400: ;
+  --weight-500: ;
+  --weight-600: ;
+  --weight-700: ;
+
+  /*===============
+   * Border-radius
+  ===============*/
+
+  --radius: ;
+
+  /*===============
+   * Transition
+  ===============*/
+
+  --transition: ;
+}
+
+/*=================================== 
+#RESET
+===================================*/
+
+/*=================================== 
+#RESUABLE CSS CLASSES
+===================================*/
