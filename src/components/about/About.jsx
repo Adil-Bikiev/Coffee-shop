@@ -1,13 +1,14 @@
 import React from 'react'
 import { FiCheck } from "react-icons/fi";
 import './about.css'
+import aboutImg from '../../assets/about-img.jpg'
 
 const About = () => {
   return (
     <section className="about section" id='about'>
         <div className="about__grid container grid">
             <div className="about__img-wrapper">
-
+                <img className='about__img' src={aboutImg} alt="" />
             </div>
             <div className="about__content">
                 <h2 className="section__title" data-title='About Us'>

@@ -15,7 +15,7 @@
   --first-color-light: hsl(27, 34%, 59%);
   --title-color: hsl(0, 0%, 100%);;
   --text-color: hsl(0, 0%, 100%);;
-  --bg-color: hsl(27, 34%, 59%);
+  --bg-color: hsl(0, 0%, 0%);
   --container-color: hsl(27, 34%, 59%);
   --hsla: hsl(27, 34%, 59%);
 
@@ -137,4 +137,19 @@ img{
 
 .section{
   padding-block: 7.5rem;
+}
+
+.section__title{
+  font-size: var(--big-font-size);
+  margin-bottom: 1rem;
+}
+
+.section__title::before{
+  content: attr(data-title);
+  display: block;
+  color: var(--first-color);
+  font-family: var(--second-font);
+  font-size: var(--h2-font-size);
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem ;
 }
