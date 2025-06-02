@@ -116,6 +116,11 @@ img{
   padding-inline: 0.75rem;
 }
 
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
 .btn{
   display: inline-block;
   color: var(--title-color);
@@ -128,4 +133,8 @@ img{
 .btn:hover{
   background-color: transparent;
   color: var(--first-color);
+}
+
+.section{
+  padding-block: 7.5rem;
 }
