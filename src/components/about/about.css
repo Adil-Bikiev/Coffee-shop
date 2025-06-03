@@ -33,3 +33,7 @@
 .about__details-description{
     gap: 0.625rem;
 }
+
+.about{
+    padding-bottom: 0;
+}
