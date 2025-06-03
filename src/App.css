@@ -15,8 +15,8 @@
   --first-color-light: hsl(27, 34%, 59%);
   --title-color: hsl(0, 0%, 100%);;
   --text-color: hsl(0, 0%, 100%);;
-  --bg-color: hsl(0, 0%, 0%);
-  --container-color: hsl(27, 34%, 59%);
+  --bg-color: hsl(0, 2%, 8%);
+  --container-color: hsl(0, 0%, 0%);
   --hsla: hsl(27, 34%, 59%);
 
   /*===============
@@ -141,7 +141,8 @@ img{
 
 .section__title{
   font-size: var(--big-font-size);
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .section__title::before{
@@ -152,4 +153,13 @@ img{
   font-size: var(--h2-font-size);
   letter-spacing: 2px;
   margin-bottom: 0.5rem ;
+}
+
+.title-left{
+  text-align: left;
+  margin-bottom: 1rem ;
+}
+
+.features__item:hover{
+  transform: translateY(-0.5rem);
 }
