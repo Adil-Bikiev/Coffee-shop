@@ -16,7 +16,7 @@ const Offers = () => {
         <Swiper spaceBetween={30} pagination={{ clickable: true  }} modules={[Pagination]} className='container'>
             {offer.map(({ img, title, discount, description}, index) => {
                 return(
-                    <SwiperSlide className='offer__item'>
+                    <SwiperSlide className='offer__item' key={index}>
                         <div className="offer__img-wrapper">
                             <img src={img} className='offer__img' alt="" />
                         </div>
