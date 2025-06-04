@@ -9,6 +9,7 @@ import Choose from './components/choose/Choose'
 import Stats from './components/stats/Stats'
 import Gallery from './components/gallery/Gallery'
 import Offers from './components/offers/Offers'
+import Team from './components/team/Team'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Stats/>
       <Gallery/>
       <Offers/>
+      <Team/>
     </>
   )
 }
