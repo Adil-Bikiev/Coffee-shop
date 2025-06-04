@@ -2,8 +2,8 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper';
-import './offer.css'
+import { Pagination } from 'swiper/modules';
+import './offers.css'
 import { offer } from '../../Data'
 
 const Offers = () => {
@@ -13,7 +13,7 @@ const Offers = () => {
             Special Offer For You 
         </h2>
 
-        <Swiper pagination={true} modules={[Pagination]} className='container'>
+        <Swiper spaceBetween={30} pagination={{ clickable: true  }} modules={[Pagination]} className='container'>
             {offer.map(({ img, title, discount, description}, index) => {
                 return(
                     <SwiperSlide className='offer__item'>
