@@ -8,6 +8,7 @@ import Menu from './components/menu/Menu'
 import Choose from './components/choose/Choose'
 import Stats from './components/stats/Stats'
 import Gallery from './components/gallery/Gallery'
+import Offers from './components/offers/Offers'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Choose/>
       <Stats/>
       <Gallery/>
+      <Offers/>
     </>
   )
 }
