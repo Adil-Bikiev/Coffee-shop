@@ -10,6 +10,7 @@ import Stats from './components/stats/Stats'
 import Gallery from './components/gallery/Gallery'
 import Offers from './components/offers/Offers'
 import Team from './components/team/Team'
+import Reservation from './components/reservation/Reservation'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Gallery/>
       <Offers/>
       <Team/>
+      <Reservation/>
     </>
   )
 }
