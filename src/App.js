@@ -10,11 +10,8 @@ import Stats from './components/stats/Stats'
 import Gallery from './components/gallery/Gallery'
 import Offers from './components/offers/Offers'
 import Team from './components/team/Team'
-<<<<<<< HEAD
 import Reservation from './components/reservation/Reservation'
 import Testimonials from './components/testimonials/Testimonials'
-=======
->>>>>>> parent of 019a709 (add Reservation Component)
 
 export default function App() {
   return (
@@ -29,11 +26,8 @@ export default function App() {
       <Gallery/>
       <Offers/>
       <Team/>
-<<<<<<< HEAD
       <Reservation/>
       <Testimonials/>
-=======
->>>>>>> parent of 019a709 (add Reservation Component)
     </>
   )
 }
