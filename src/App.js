@@ -12,6 +12,7 @@ import Offers from './components/offers/Offers'
 import Team from './components/team/Team'
 import Reservation from './components/reservation/Reservation'
 import Testimonials from './components/testimonials/Testimonials'
+import Footer from './components/footer/Footer'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <Team/>
       <Reservation/>
       <Testimonials/>
+      <Footer/>
     </>
   )
 }
