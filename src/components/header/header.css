@@ -16,6 +16,7 @@
 
 .nav__logo-img{
     width: 190px;
+    cursor: pointer;
 }
 
 .nav__list{
@@ -36,4 +37,24 @@
 .nav__toogle{
     font-size: var(--h2-font-size);
     display: none;
+}
+
+.scroll-header{
+    position: fixed;
+    background-color: var(--container-color);
+    animation: slide-down 0.7s;
+}
+
+@keyframes slide-down {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.active,
+.nav__link:hover{
+    color: var(--first-color);
 }
