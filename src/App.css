@@ -72,6 +72,10 @@ body{
   font-size: var(--normal-font-size);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   color: var(--text-color);
   background: var(--bg-color);
@@ -163,4 +167,5 @@ img{
 .features__item:hover{
   transform: translateY(-0.5rem);
 }
+
 

@@ -32,12 +32,12 @@ const Header = () => {
                     <img src={logo} alt="" className='nav__logo-img'/>
                 </Link>
 
-                <div className="nav__menu">
+                <div className={`${showMenu ? 'show-menu' : ''} nav__menu `}>
                     <ul className="nav__list">
                         {links.map(({name, path}, index) => {
                             return (
                                 <li className="nav__item" key={index}>
-                                    <Link spy={true} smooth={true} offset={-60} hashSpy={true} duration={500} to={path} href={path} className="nav__link">
+                                    <Link spy={true} smooth={true} offset={-60} hashSpy={true} duration={500} to={path} href={path} onClick={() => setShowMenu(!showMenu)} className="nav__link">
                                         {name}
                                     </Link>
                                 </li>
@@ -45,7 +45,7 @@ const Header = () => {
                         })}
                     </ul>
                 </div>
-                <div className="nav__toogle" onClick={() => setShowMenu(!showMenu)}>
+                <div className="nav__toggle" onClick={() => setShowMenu(!showMenu)}>
                     <FaStream/>
                 </div>
             </nav>
