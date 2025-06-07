@@ -58,3 +58,52 @@
 .nav__link:hover{
     color: var(--first-color);
 }
+
+
+@media (max-width: 992px) {
+    .nav__toggle {
+      display: block;
+    }
+  
+    .nav__menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease-in-out;
+      z-index: 999;
+    }
+  
+    .show-menu {
+      max-height: 300px;
+    }
+  
+    .nav__list {
+      flex-direction: column;
+      padding: 1rem 0;
+      row-gap: 0.75rem;
+      align-items: start;
+    }
+  
+    .nav__item {
+      width: 100%;
+      padding: 0.5rem 1.25rem;
+    }
+  
+    .nav__link {
+      width: 100%;
+      display: block;
+      color: #111;
+      font-weight: 500;
+    }
+  
+    .nav__link:hover {
+      color: var(--first-color);
+    }
+  }
+  

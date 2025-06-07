@@ -37,7 +37,7 @@ const Header = () => {
                         {links.map(({name, path}, index) => {
                             return (
                                 <li className="nav__item" key={index}>
-                                    <Link spy={true} smooth={true} offset={-60} hashSpy={true} duration={500} to={path} href={path} onClick={() => setShowMenu(!showMenu)} className="nav__link">
+                                    <Link spy={true} smooth={true} offset={-60} hashSpy={true} duration={500} to={path} href={path} onClick={() => setShowMenu(false)} className="nav__link">
                                         {name}
                                     </Link>
                                 </li>
