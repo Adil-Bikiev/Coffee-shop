@@ -1,6 +1,4 @@
-# ☕ Coffee Bliss – React Landing Page
-
-![Coffee Bliss Banner](./src/assets/banner.jpg)
+# ☕ Coffee Shop – React Landing Page
 
 **Coffee Bliss** is a modern, responsive, and visually engaging landing page for a coffee shop or cafe, built using **React**. It features smooth scrolling, animated sections, and a clean, modular component structure.
 
@@ -42,8 +40,8 @@ src/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/coffee-bliss.git
-cd coffee-bliss
+git clone https://github.com/Adil-Bikiev/Coffee-shop.git
+cd Coffee-shop
 ```
 
 2. **Install dependencies:**
@@ -59,6 +57,22 @@ npm start
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Screenshots
+
+![screen](./screen/1.png)
+![screen](./screen/2.png)
+![screen](./screen/3.png)
+![screen](./screen/4.png)
+![screen](./screen/5.png)
+![screen](./screen/6.png)
+![screen](./screen/7.png)
+![screen](./screen/8.png)
+![screen](./screen/9.png)
+![screen](./screen/10.png)
+![screen](./screen/11.png)
+![screen](./screen/12.png)
+
 
 ## 📦 Main Libraries
 
@@ -97,4 +111,4 @@ Each component is a standalone section of the landing page:
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
