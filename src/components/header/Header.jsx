@@ -8,6 +8,7 @@ import './header.css'
 
 const Header = () => {
     const [scrollHeader, setScrollHeader] = useState(false);
+    const [showMenu, setShowMenu] = useState(false)
 
     const changeHeader = () => {
         if(window.scrollY >= 80){
@@ -44,7 +45,7 @@ const Header = () => {
                         })}
                     </ul>
                 </div>
-                <div className="nav__toogle">
+                <div className="nav__toogle" onClick={() => setShowMenu(!showMenu)}>
                     <FaStream/>
                 </div>
             </nav>
